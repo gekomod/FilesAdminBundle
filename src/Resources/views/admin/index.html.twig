@@ -1,0 +1,18 @@
+{% extends "@UmbrellaAdmin/layout.html.twig" %}
+
+{% block stylesheets %}
+{{ parent() }}
+<link href="{{ asset('bundles/filesadmin/css/filemanager.css') }}" rel="stylesheet">
+<link href="{{ asset('bundles/filesadmin/css/icons.css') }}" rel="stylesheet">
+{% endblock %}    
+
+{% block javascripts %}
+    {{ parent() }}
+<script data-main="/bundles/filesadmin/main.default.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+<script src="{{ asset('bundles/filesadmin/js/file.js') }}"></script>
+{% endblock %}    
+   
+
+{% block content %}
+ <div id="elfinder"></div>
+{% endblock %}

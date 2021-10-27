@@ -1,0 +1,20 @@
+{
+    "name": "gekomod/files-admin-bundle",
+    "description": "Simple files admin to Umbrella Admin",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gekomod\\FilesAdminBundle\\": "src/"
+        }
+    },  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaroslaw",
+            "email": "zaba141@o2.pl"
+        }
+    ]
+}
